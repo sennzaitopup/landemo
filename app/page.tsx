@@ -60,9 +60,9 @@ export default function ProfileCard() {
             <h3 className="text-base">About Me</h3>
             <br />
             <p className="text-sm font-light">
-              Hello ! I'm Sennzai
+              Hello ! I'm not Sennzai
               <br />
-              24 years old
+              But I ❤️ Sennzai
               <br />
               Experience with C/C++
               <br />
