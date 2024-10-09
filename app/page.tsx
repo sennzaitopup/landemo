@@ -4,7 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 export default function ProfileCard() {
   return (
-    <div className="bg-gray-800 flex items-center justify-center min-h-screen">
+    <div className="bg-gray-800 flex items-center justify-center min-h-screen overflow-hidden">
       <div className="bg-gray-900 text-white rounded-lg shadow-lg w-80">
         <div className="relative">
           <Image
@@ -27,7 +27,10 @@ export default function ProfileCard() {
         <div className="p-4 mt-8">
           <div className="flex items-center justify-between">
             <h2 className="text-xl font-bold">Sennzai</h2>
-            {/* <div className="flex space-x-2">
+          </div>
+          <div className="flex items-center justify-between">
+            <p className="text-gray-400 text-sm">sennzai • they/them</p>
+            <div className="flex space-x-1">
               <Image
                 src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png"
                 alt="HypeSquad Balance Badge"
@@ -40,21 +43,21 @@ export default function ProfileCard() {
                 width={20}
                 height={20}
               />
-              <Image
+              {/* <Image
                 src="https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png"
                 alt="HashTag Badge"
                 width={20}
                 height={20}
-              />
+              /> */}
               <Image
                 src="https://cdn.discordapp.com/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png"
                 alt="Quest Badge"
                 width={20}
                 height={20}
               />
-            </div> */}
+            </div>
           </div>
-          <p className="text-gray-400 text-sm">sennzai • they/them</p>
+          
           <hr className="my-2 border-gray-700" />
           <div>
             <h3 className="text-base">About Me</h3>
