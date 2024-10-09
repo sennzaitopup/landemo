@@ -20,7 +20,7 @@ export default function ProfileCard() {
           <div className="absolute top-20 left-4">
             <Image
               src={SennzaiImg}
-              alt="Profile image with text 'ElaXan'"
+              alt="Sennzai"
               width={90}
               height={90}
               className="rounded-full border-4 border-gray-900"
