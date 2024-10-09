@@ -2,16 +2,13 @@ import React from "react";
 import Image from 'next/image';
 import { MdOutlineEmail } from "react-icons/md";
 
-import SennzaiImg from "./img/Sennzai.jpg";
-import SennzaiBanner from "./img/Sennzai.gif";
-
 export default function ProfileCard() {
   return (
     <div className="bg-gray-800 flex items-center justify-center min-h-screen">
       <div className="bg-gray-900 text-white rounded-lg shadow-lg w-80">
         <div className="relative">
           <Image
-            src={SennzaiBanner}
+            src="https://sennzai.dev/Sennzai.gif"
             alt="sennzai.gif"
             width={320}
             height={128}
@@ -19,7 +16,7 @@ export default function ProfileCard() {
           />
           <div className="absolute top-20 left-4">
             <Image
-              src={SennzaiImg}
+              src="https://sennzai.dev/Sennzai.jpg"
               alt="Sennzai"
               width={90}
               height={90}
