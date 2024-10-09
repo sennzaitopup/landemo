@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import { FaGithub, FaArrowRight } from 'react-icons/fa';
+import { MdOutlineEmail } from "react-icons/md";
 
 import SennzaiImg from "./img/Sennzai.jpg";
 import SennzaiBanner from "./img/Sennzai.gif";
@@ -75,15 +76,15 @@ export default function ProfileCard() {
           <hr className="my-2 border-gray-700" />
           <div>
           <h3 className="text-base">Connections</h3>
+            <br />
             <a
-              href="https://github.com/"
+              href="mailto:admin@sennzai.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 mt-2 text-gray-400 hover:text-white"
+              className="flex items-center space-x-2 text-gray-400 hover:text-white"
             >
-              <FaGithub className="text-2xl" />
-              <span>Github</span>
-              <FaArrowRight className="ml-auto" />
+              <MdOutlineEmail className="text-xl" />
+              <span>Email</span>
             </a>
           </div>
         </div>
