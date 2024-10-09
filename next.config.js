@@ -20,6 +20,11 @@ const nextConfig = {
           hostname: 'sennzai.dev',
           pathname: '/**',
         },
+        {
+          protocol: 'https',
+          hostname: 'cdn.discordapp.com',
+          pathname: '/badge-icons/**',
+        }
       ],
     },
   }
