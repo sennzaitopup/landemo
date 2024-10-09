@@ -13,11 +13,11 @@ const nextConfig = {
     // Optional: Change the output directory `out` -> `dist`
     // distDir: 'dist',
     images: {
+      unoptimized: true,
       remotePatterns: [
         {
           protocol: 'https',
           hostname: 'sennzai.dev',
-          port: '',
           pathname: '/**',
         },
       ],
