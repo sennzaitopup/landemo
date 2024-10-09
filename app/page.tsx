@@ -1,6 +1,5 @@
 import React from "react";
 import Image from 'next/image';
-import { FaGithub, FaArrowRight } from 'react-icons/fa';
 import { MdOutlineEmail } from "react-icons/md";
 
 import SennzaiImg from "./img/Sennzai.jpg";
