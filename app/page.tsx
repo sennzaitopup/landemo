@@ -57,20 +57,24 @@ export default function ProfileCard() {
               />
             </div> */}
           </div>
-          <p className="text-gray-400">sennzai • she/her</p>
+          <p className="text-gray-400 text-sm">sennzai • they/them</p>
           <hr className="my-2 border-gray-700" />
           <div>
-            <h3 className="text-sm font-semibold">ABOUT ME</h3>
-            <p className="text-sm">
-              24 y.o.
+            <h3 className="text-base">About Me</h3>
+            <br />
+            <p className="text-sm font-light">
+              Hello ! I'm Sennzai
               <br />
-              Nothing
+              24 years old
               <br />
+              Experience with C/C++
+              <br />
+              <a href="" className="text-blue-600">https://sennzai.dev</a>
             </p>
           </div>
           <hr className="my-2 border-gray-700" />
           <div>
-            <h3 className="text-sm font-semibold">CONNECTIONS</h3>
+          <h3 className="text-base">Connections</h3>
             <a
               href="https://github.com/"
               target="_blank"
